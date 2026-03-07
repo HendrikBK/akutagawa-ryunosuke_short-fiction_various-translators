@@ -35,70 +35,65 @@
 		<dc:subject id="subject-2">Short stories, Japanese -- Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-2">LCHS</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
+		<!-- "The Ball," "Lice," "Mōri Sensei," "Rashōmon," "The Badger," "The Handkerchief," "The Nose," "The Pipe," "The Spider's Thread," "The Wine Worm" and "Tobacco and the Devil"-->
 		<dc:source>https://www.gutenberg.org/ebooks/78105</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://www.google.com/books/edition/Tales_Grotesque_and_Curious/np8ac_JiSV4C</dc:source>
+		<!-- "The Story of a Fallen Head" and "Tu Tzuchun"-->
+		<dc:source>https://en.wikisource.org/wiki/Eminent_Authors_of_Contemporary_Japan/Volume_1</dc:source>
+		<dc:source>https://en.wikisource.org/wiki/File:Eminent_Authors_of_Contemporary_Japan.pdf</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/akutagawa-ryunosuke_short-fiction_various-translators</meta>
 		<dc:creator id="author">Akutagawa Ryūnosuke</dc:creator>
-		<meta property="file-as" refines="#author">Ryūnosuke, Akutagawa</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Akutagawa, Ryūnosuke</meta>
+		<meta property="alternate-script" refines="#author" xml:lang="ja">芥川龍之介</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Akutagawa_Ry%C5%ABnosuke</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79091265</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Glenn W. Shaw</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Shaw, Glenn W.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator-1">Gleen William Shaw</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no96013185</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">win</meta>
 		<dc:contributor id="translator-2">Eric S. Bell</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Bell, Eric S.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator-2">Eric Stewart Bell</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">Ukai Eiji</dc:contributor>
-		<meta property="file-as" refines="#translator-3">Eiji, Ukai</meta>
-		<meta property="se:name.person.full-name" refines="#translator-3">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-3">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="file-as" refines="#translator-3">Ukai, Eiji</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-4">Tada Yoshinobu</dc:contributor>
-		<meta property="file-as" refines="#translator-4">Yoshinobu, Tada</meta>
-		<meta property="se:name.person.full-name" refines="#translator-4">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-4">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="file-as" refines="#translator-4">Tada, Yoshinobu</meta>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Okada Saburōsuke</dc:contributor>
+		<meta property="file-as" refines="#artist">Okada, Saburōsuke</meta>
+		<meta property="alternate-script" refines="#artist" xml:lang="ja">岡田三郎助</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Okada_Sabur%C5%8Dsuke</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85247957</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Hendrik Kaiber</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Kaiber, Hendrik</meta>
+		<dc:contributor id="transcriber-1">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Distributed Proofreaders</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Hendrik Kaiber</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Kaiber, Hendrik</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wfw</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
