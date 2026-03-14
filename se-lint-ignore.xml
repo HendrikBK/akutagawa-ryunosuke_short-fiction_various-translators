@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="colophon.xhtml">
+		<ignore code="m-037">
+			<reason>Transcription is one of two, thus is should not appear individually.</reason>
+		</ignore>
+	</file>
+	<file path="imprint.xhtml">
+		<ignore code="m-037">
+			<reason>Transcription is one of two, thus is should not appear individually.</reason>
+		</ignore>
+	</file>
+	<file path="introduction.xhtml">
+		<ignore code="s-060">
+			<line>20</line>
+			<line>21</line>
+			<reason>The publication is also in another language.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
