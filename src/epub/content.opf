@@ -38,9 +38,10 @@
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of short fiction by Akutagawa Ryūnosuke, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/akutagawa-ryunosuke"&gt;Akutagawa Ryūnosuke&lt;/a&gt; was a respected author in pre-war Japan; being well-read in several topics and having received a westernized education, his work blends traditional themes os Japanese culture with Western concepts. His almost 200 stories deal with a variety of themes and concepts; “The Nose” is a tale about vanity and perception of one’s image, “Rashōmon” deals with morality in the face of necessity, “The Story of a Fallen Head” is an anti-war story. Akutagawa often ends his stories with a reflection related to the plot, spoken either by one character to another or by the narrator to the reader.&lt;/p&gt;
+			&lt;p&gt;Most of his fiction hasn’t been translated into English. Collected here are the few stories believed to have lapsed into public domain.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- "The Ball," "Lice," "Mōri Sensei," "Rashōmon," "The Badger," "The Handkerchief," "The Nose," "The Pipe," "The Spider's Thread," "The Wine Worm" and "Tobacco and the Devil"-->
