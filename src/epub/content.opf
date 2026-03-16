@@ -61,7 +61,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Glenn W. Shaw</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Shaw, Glenn W.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">Gleen William Shaw</meta>
+		<meta property="se:name.person.full-name" refines="#translator-1">Glenn William Shaw</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no96013185</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">win</meta>
